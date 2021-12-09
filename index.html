@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Portfolio/bootstrap.min.css">
+<style>
+
+body{
+    width: 100%;
+    height: 1200vh;
+    background-size: 400%;
+    background-image:linear-gradient(45deg,whitesmoke,blueviolet,whitesmoke,blueviolet);
+    transition: all 0.5s;
+    animation: bg-animation 4s infinite alternate;
+}
+@keyframes bg-animation {
+    0%{
+        background-position:left;
+}
+    100%{
+        background-position:right;
+    }
+}
+.avatar{
+   width:200px
+}
+.bio{
+    background-color:blueviolet;
+    width:100%;
+}
+.socialmedia,.icon{
+width: 50px;
+margin-left: 10px;
+    transition:all 0.3s;
+}
+
+
+.socialmedia:hover{
+    transition: 0.3s;
+    width: 30px;
+}
+h4{
+    color:white;
+}
+
+p{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.d-flex{
+    background-color: black;
+    color: whitesmoke;
+}
+.p-2{
+    transition: all 0.5s;
+}
+.p-2:hover{
+    background-color: whitesmoke;
+    color:black;
+    overflow: hidden;
+    cursor: pointer;
+}
+#hiremee{
+    border-radius: 80px;
+    transition: all 0.5s;
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    border-color: whitesmoke;
+}
+#hiremee:hover{
+    width: 200px;
+}
+#hirespan{
+    transition: all 0.5s;
+}
+#hirespan:hover{
+    padding-bottom: 10px;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.content{
+    width: 100%;
+    background-color:blueviolet ;
+    padding-left: 10px;
+}
+@media only screen and (max-width: 400px) {
+    .card{
+     width: 315px;
+     margin-bottom:10px;
+     position: center;
+    }
+    .aboutfont{
+        font-size: 14px;
+    }
+}
+
+
+</style>
+</head>
+<body>
+
+    <div class="d-flex flex-row fixed-top">
+        <div class="p-2 bd-highlight"><a href="#profile">profile</a></div>
+        <div class="p-2 bd-highlight"><a href="#skills">Skills</a></div>
+        <div class="p-2 bd-highlight">Hire-me</div>
+      </div><br><br><br>
+<div class="container">
+<center>
+<h1 >Hy buddy nice to meet you</h1><br>
+<h2>I am Ganesh Junior Web developer</h2><br>
+
+<img src="../Portfolio/images/avatar-icon-images-4.jpg" alt="Avatar" class="avatar"><br><br>
+<p>My Social profiles</p>
+<span><a href="https://www.linkedin.com/in/ganeshguru-a-ab5399176/" target="_blank"><img src="../Portfolio/images/linkedin-in-brands.svg" alt="linkedin profile" class="socialmedia"></a></span>
+<span><a href="https://www.instagram.com/ga_nez_/" target="_blank"><img src="../Portfolio/images/instagram-brands.svg" alt="instagram profile" class="socialmedia"></a></span>
+<span><a href="https://twitter.com/GANESHG50346519" target="_blank"><img src="../Portfolio/images/twitter-brands.svg" alt="twitter profile" class="socialmedia"></a></span>
+<span><a href="https://github.com/Ganeshguru5" target="_blank"><img src="../Portfolio/images/github-brands.svg" alt="linkedin profile" class="socialmedia"></a></span>
+<br><br>
+<button class="btn-primary" id="hiremee" style="color: whitesmoke;"><span id="hirespan">Hire-mee</span></button>
+
+<br><br><br><br><br><br>
+<div class="card">
+<div class="card-body" style="width: 100%;">
+    Hii dude myself GANESHGURU.A and i am a computer science and engineering
+    @Kamaraj College of Engineering and Technology.I am going to graduate my Bachelor 
+    degree in 2023.I am interested in web developement as well as App developement.
+    I love to create web pages.On the otherhand i wish to want to be UI/UX designer.
+    On today  I am host my own website using free domain with basic web developement tools.
+    But I am dame sure I will done my best in future and I will design myself Awsome
+</div>
+</div>
+<br><br><br><br><br><br>
+
+<div class="card">
+    <div class="card-header"><span>Known skills</span><span><img src="../Portfolio/images/code-solid.svg" class="icon" alt=""></span></div>
+    <div class="card-body" style="height: 1200px;">
+        
+    </div>
+
+</div>
+</center>
+
+</div>
+<script src="../Portfolio/bootstrap.min.js"></script>
+</body>
+</html>
